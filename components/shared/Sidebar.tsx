@@ -12,14 +12,15 @@ const Sidebar = () => {
 
   return (
     <aside className="sidebar">
-      <div className="flex size-full flex-col gap-4">
-        <Link href="/" className="sidebar-logo">
+      <div className="flex justify-center size-full flex-col gap-4">
+        <Link href="/" className="sidebar-logo flex items-center ">
           <Image
-            src="/assets/images/logo-icon.svg"
+            src="/assets/images/favicon-3.jpg"
             alt="logo"
-            width={180}
-            height={28}
+            width={40}
+            height={30}
           />
+          <p className="gradient-text text-2xl font-extrabold">Generatio-ai</p>
         </Link>
 
         <nav className="sidebar-nav">
